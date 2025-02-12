@@ -151,6 +151,21 @@
             50% { transform: scale(0.9); }
             100% { transform: scale(1); }
         }
+
+        .question {
+            font-size: 24px;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .round {
+            display: none;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .round.active {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -158,29 +173,119 @@
         <div class="container" id="quiz-container">
             <h1>Family 100 Quiz</h1>
             <button class="start-btn" onclick="startRound()">Mulai Round</button>
-            <div class="answers" id="answers" style="display: none;">
-                <div class="answer-row">
-                    <button class="answer-btn" onclick="reveal(this, 'Makan - 37')">?</button>
-                    <button class="answer-btn" onclick="reveal(this, 'Salat - 31')">?</button>
+            <div class="round" id="round1">
+                <div class="question">Round 1: Apa yang sering dilakukan di rumah?</div>
+                <div class="answers">
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Makan - 37')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Salat - 31')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Tanggal Lahir - 30')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Nama - 23')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Pahlawan - 38')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Rumah Adat - 7')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Manis - 0')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Stroberi - 0')">?</button>
+                    </div>
                 </div>
-                <div class="answer-row">
-                    <button class="answer-btn" onclick="reveal(this, 'Tanggal Lahir - 30')">?</button>
-                    <button class="answer-btn" onclick="reveal(this, 'Nama - 23')">?</button>
+            </div>
+            <div class="round" id="round2">
+                <div class="question">Round 2: Apa yang sering dilakukan di sekolah?</div>
+                <div class="answers">
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Belajar - 45')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Main - 30')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Ujian - 25')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Makan - 20')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Olahraga - 15')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Baca - 10')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Tidur - 5')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Ngobrol - 0')">?</button>
+                    </div>
                 </div>
-                <div class="answer-row">
-                    <button class="answer-btn" onclick="reveal(this, 'Pahlawan - 38')">?</button>
-                    <button class="answer-btn" onclick="reveal(this, 'Rumah Adat - 7')">?</button>
+            </div>
+            <div class="round" id="round3">
+                <div class="question">Round 3: Apa yang sering dilakukan di kantor?</div>
+                <div class="answers">
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Kerja - 50')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Rapat - 40')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Makan - 30')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Ngobrol - 20')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Istirahat - 15')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Baca - 10')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Tidur - 5')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Main - 0')">?</button>
+                    </div>
                 </div>
-                <div class="answer-row">
-                    <button class="answer-btn" onclick="reveal(this, 'Manis - 0')">?</button>
-                    <button class="answer-btn" onclick="reveal(this, 'Stroberi - 0')">?</button>
+            </div>
+            <div class="round" id="round4">
+                <div class="question">Round 4: Apa yang sering dilakukan di taman?</div>
+                <div class="answers">
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Jalan - 40')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Main - 35')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Olahraga - 30')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Makan - 20')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Ngobrol - 15')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Baca - 10')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Tidur - 5')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Foto - 0')">?</button>
+                    </div>
+                </div>
+            </div>
+            <div class="round" id="round5">
+                <div class="question">Round 5: Apa yang sering dilakukan di mall?</div>
+                <div class="answers">
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Belanja - 50')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Makan - 40')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Nonton - 30')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Ngobrol - 20')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Jalan - 15')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Foto - 10')">?</button>
+                    </div>
+                    <div class="answer-row">
+                        <button class="answer-btn" onclick="reveal(this, 'Tidur - 5')">?</button>
+                        <button class="answer-btn" onclick="reveal(this, 'Main - 0')">?</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
+        let currentRound = 1;
+
         function startRound() {
+            document.getElementById(`round${currentRound}`).classList.add("active");
             document.getElementById("answers").style.display = "flex";
         }
 
@@ -188,6 +293,16 @@
             if (!button.classList.contains("revealed")) {
                 button.textContent = text;
                 button.classList.add("revealed");
+            }
+        }
+
+        function nextRound() {
+            document.getElementById(`round${currentRound}`).classList.remove("active");
+            currentRound++;
+            if (currentRound <= 5) {
+                document.getElementById(`round${currentRound}`).classList.add("active");
+            } else {
+                alert("Permainan selesai!");
             }
         }
     </script>
