@@ -5,127 +5,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family 100 Quiz</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
         body {
             font-family: Arial, sans-serif;
-            background-color: #222;
+            background: url('https://i.imghippo.com/files/wQoz9596Ucw.jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
         .container {
             width: 80%;
-            margin: auto;
-            background: #333;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+            z-index: 2;
+            animation: fadeIn 1s ease-in-out forwards;
         }
-        button {
-            background: linear-gradient(45deg, gold, orange);
-            border: none;
+
+        h1 {
+            font-family: 'Luckiest Guy', cursive;
+            font-size: 50px;
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffa00, #00ff00, #0099ff, #7700ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: zoomFade 1.5s ease-in-out forwards;
+        }
+
+        .start-btn {
+            background: linear-gradient(45deg, #ff7300, #fffa00);
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
             padding: 15px 30px;
-            font-size: 18px;
-            border-radius: 10px;
+            border: none;
+            border-radius: 12px;
             cursor: pointer;
             transition: 0.3s;
-            box-shadow: 0 5px 0 darkorange;
-            margin-top: 20px;
+            box-shadow: 0 5px 0 #b35e00;
+            position: relative;
         }
-        button:active {
-            box-shadow: 0 2px 0 darkorange;
-            transform: translateY(3px);
+
+        .start-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
         }
-        .question {
-            display: none;
-            font-size: 24px;
-            margin-bottom: 20px; /* Menambahkan jarak antara soal dan tombol */
-            padding: 10px;
-            animation: fadeIn 1s ease-in-out;
+
+        .start-btn:active {
+            transform: translateY(4px);
+            box-shadow: 0 2px 0 #b35e00;
+            animation: bounce 0.3s ease-in-out;
         }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes zoomFade {
+            0% { opacity: 0; transform: scale(0.5); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
         .answers {
-            display: none;
+            display: flex;
             flex-direction: column;
             align-items: center;
+            margin-top: 20px;
         }
+
+        .answer-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 10px 0;
+        }
+
         .answer-btn {
-            background: rgb(0, 102, 255);
+            background: linear-gradient(45deg, #0066ff, #00ccff);
             color: white;
             font-size: 22px;
             padding: 15px;
-            margin: 5px;
-            width: 300px;
+            width: 45%;
             text-align: center;
             border: none;
             border-radius: 10px;
             cursor: pointer;
             transition: 0.3s;
             box-shadow: 0 5px 0 navy;
+            position: relative;
         }
+
         .answer-btn:hover {
             transform: scale(1.1);
-            box-shadow: 0 0 10px rgba(0, 102, 255, 0.7);
+            box-shadow: 0 0 15px rgba(0, 102, 255, 0.7);
         }
+
         .answer-btn:active {
-            box-shadow: 0 2px 0 navy;
             transform: translateY(3px);
+            animation: btnPress 0.3s ease-in-out;
         }
+
         .revealed {
             background: gold;
             color: black;
             animation: popEffect 0.5s ease-in-out;
         }
-        .scoreboard {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
-        .score {
-            font-size: 30px;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+
         @keyframes popEffect {
             0% { transform: scale(1); }
             50% { transform: scale(1.2); }
             100% { transform: scale(1); }
         }
+
+        @keyframes btnPress {
+            0% { transform: scale(1); }
+            50% { transform: scale(0.9); }
+            100% { transform: scale(1); }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Family 100 Quiz</h1>
-        <button onclick="startRound()">Mulai Round 1</button>
-        <div class="question" id="question">Sebutkan jenis tumbuhan di perairan!</div>
-        <div class="answers" id="answers">
-            <button class="answer-btn" onclick="reveal(this, 'Dita - 40', 40)">1</button>
-            <button class="answer-btn" onclick="reveal(this, 'Bagus - 34', 34)">2</button>
-            <button class="answer-btn" onclick="reveal(this, 'Hari TNI - 25', 25)">3</button>
-            <button class="answer-btn" onclick="reveal(this, 'Tumbuhan Hijau - 16', 16)">4</button>
-            <button class="answer-btn" onclick="reveal(this, 'Lumut - 10', 10)">5</button>
-        </div>
-        <div class="scoreboard">
-            <div>Team 1: <span class="score" id="team1-score">0</span></div>
-            <div>Team 2: <span class="score" id="team2-score">0</span></div>
+    <div class="overlay">
+        <div class="container" id="quiz-container">
+            <h1>Family 100 Quiz</h1>
+            <button class="start-btn" onclick="startRound()">Mulai Round</button>
+            <div class="answers" id="answers" style="display: none;">
+                <div class="answer-row">
+                    <button class="answer-btn" onclick="reveal(this, 'Makan - 37')">?</button>
+                    <button class="answer-btn" onclick="reveal(this, 'Salat - 31')">?</button>
+                </div>
+                <div class="answer-row">
+                    <button class="answer-btn" onclick="reveal(this, 'Tanggal Lahir - 30')">?</button>
+                    <button class="answer-btn" onclick="reveal(this, 'Nama - 23')">?</button>
+                </div>
+                <div class="answer-row">
+                    <button class="answer-btn" onclick="reveal(this, 'Pahlawan - 38')">?</button>
+                    <button class="answer-btn" onclick="reveal(this, 'Rumah Adat - 7')">?</button>
+                </div>
+                <div class="answer-row">
+                    <button class="answer-btn" onclick="reveal(this, 'Manis - 0')">?</button>
+                    <button class="answer-btn" onclick="reveal(this, 'Stroberi - 0')">?</button>
+                </div>
+            </div>
         </div>
     </div>
-    
-    <script>
-        let totalScore1 = 0;
 
+    <script>
         function startRound() {
-            document.getElementById("question").style.display = "block";
             document.getElementById("answers").style.display = "flex";
         }
 
-        function reveal(button, text, score) {
+        function reveal(button, text) {
             if (!button.classList.contains("revealed")) {
                 button.textContent = text;
                 button.classList.add("revealed");
-
-                // Tambah skor ke tim 1 (bisa ditambahkan sistem giliran nanti)
-                totalScore1 += score;
-                document.getElementById("team1-score").innerText = totalScore1;
             }
         }
     </script>
