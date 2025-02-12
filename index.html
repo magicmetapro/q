@@ -166,6 +166,12 @@
         .round.active {
             display: block;
         }
+
+        .next-round-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -278,6 +284,9 @@
                     </div>
                 </div>
             </div>
+            <div class="next-round-container">
+                <button class="start-btn" id="next-round-btn" style="display: none;" onclick="nextRound()">Next Round</button>
+            </div>
         </div>
     </div>
 
@@ -285,6 +294,7 @@
         let currentRound = 1;
         const totalRounds = 5;
         const startBtn = document.getElementById("start-btn");
+        const nextRoundBtn = document.getElementById("next-round-btn");
 
         function startRound() {
             startBtn.style.display = "none"; // Sembunyikan tombol "Mulai Round"
@@ -306,9 +316,7 @@
 
             if (allRevealed) {
                 if (currentRound < totalRounds) {
-                    startBtn.textContent = "Next Round";
-                    startBtn.style.display = "block";
-                    startBtn.onclick = nextRound;
+                    nextRoundBtn.style.display = "block"; // Tampilkan tombol "Next Round"
                 } else {
                     startBtn.textContent = "Permainan Selesai!";
                     startBtn.style.display = "block";
@@ -322,7 +330,7 @@
             currentRound++;
             if (currentRound <= totalRounds) {
                 document.getElementById(`round${currentRound}`).classList.add("active");
-                startBtn.style.display = "none"; // Sembunyikan tombol "Next Round"
+                nextRoundBtn.style.display = "none"; // Sembunyikan tombol "Next Round"
             }
         }
     </script>
