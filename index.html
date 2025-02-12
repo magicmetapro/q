@@ -34,43 +34,43 @@
             box-shadow: 0 2px 0 darkorange;
             transform: translateY(3px);
         }
-        .question, .answers {
+        .question {
             display: none;
             font-size: 24px;
-            margin-bottom: 40px;
-            cursor: pointer;
+            margin-bottom: 20px;
             animation: fadeIn 1s ease-in-out;
         }
         .answers {
-            display: flex;
+            display: none;
             flex-direction: column;
             align-items: center;
         }
-        .answer {
-            background: gold;
-            color: black;
+        .answer-btn {
+            background: rgb(0, 102, 255);
+            color: white;
+            font-size: 22px;
             padding: 15px;
             margin: 5px;
             width: 300px;
             text-align: center;
-            font-size: 20px;
-            border-radius: 5px;
+            border: none;
+            border-radius: 10px;
             cursor: pointer;
             transition: 0.3s;
-            opacity: 0;
+            box-shadow: 0 5px 0 navy;
         }
-        .answer.show {
-            animation: fadeIn 1s ease-in-out forwards;
-        }
-        .answer:hover {
+        .answer-btn:hover {
             transform: scale(1.1);
-            box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+            box-shadow: 0 0 10px rgba(0, 102, 255, 0.7);
         }
-        .answer.revealed {
+        .answer-btn:active {
+            box-shadow: 0 2px 0 navy;
+            transform: translateY(3px);
+        }
+        .revealed {
+            background: gold;
+            color: black;
             animation: popEffect 0.5s ease-in-out;
-        }
-        .hidden span {
-            display: none;
         }
         .scoreboard {
             display: flex;
@@ -94,14 +94,14 @@
 <body>
     <div class="container">
         <h1>Family 100 Quiz</h1>
-        <button onclick="startRound()">Round 1</button>
-        <div class="question" id="question" onclick="showAnswers()">Sebutkan jenis tumbuhan di perairan!</div>
-        <div class="answers" id="team1">
-            <div class="answer hidden" id="answer1" onclick="reveal(this, 40, 'team1')"><span>Plankton - 40</span>1</div>
-            <div class="answer hidden" id="answer2" onclick="reveal(this, 34, 'team1')"><span>Hutan - 34</span>2</div>
-            <div class="answer hidden" id="answer3" onclick="reveal(this, 25, 'team1')"><span>Alga - 25</span>3</div>
-            <div class="answer hidden" id="answer4" onclick="reveal(this, 16, 'team1')"><span>Tumbuhan Hijau - 16</span>4</div>
-            <div class="answer hidden" id="answer5" onclick="reveal(this, 10, 'team1')"><span>Lumut - 10</span>5</div>
+        <button onclick="startRound()">Mulai Round 1</button>
+        <div class="question" id="question">Sebutkan jenis tumbuhan di perairan!</div>
+        <div class="answers" id="answers">
+            <button class="answer-btn" onclick="reveal(this, 'Plankton - 40', 40)">1</button>
+            <button class="answer-btn" onclick="reveal(this, 'Hutan - 34', 34)">2</button>
+            <button class="answer-btn" onclick="reveal(this, 'Alga - 25', 25)">3</button>
+            <button class="answer-btn" onclick="reveal(this, 'Tumbuhan Hijau - 16', 16)">4</button>
+            <button class="answer-btn" onclick="reveal(this, 'Lumut - 10', 10)">5</button>
         </div>
         <div class="scoreboard">
             <div>Team 1: <span class="score" id="team1-score">0</span></div>
@@ -111,22 +111,21 @@
     
     <script>
         let totalScore1 = 0;
+
         function startRound() {
             document.getElementById("question").style.display = "block";
-            setTimeout(() => {
-                document.getElementById("answer1").classList.add("show");
-                document.getElementById("answer2").classList.add("show");
-                document.getElementById("answer3").classList.add("show");
-                document.getElementById("answer4").classList.add("show");
-                document.getElementById("answer5").classList.add("show");
-            }, 1000);
+            document.getElementById("answers").style.display = "flex";
         }
-        function reveal(element, score, team) {
-            element.querySelector('span').style.display = 'inline';
-            element.innerHTML = element.querySelector('span').innerHTML;
-            element.classList.add("revealed");
-            totalScore1 += score;
-            document.getElementById("team1-score").innerText = totalScore1;
+
+        function reveal(button, text, score) {
+            if (!button.classList.contains("revealed")) {
+                button.textContent = text;
+                button.classList.add("revealed");
+
+                // Tambah skor ke tim 1 (bisa ditambahkan sistem giliran nanti)
+                totalScore1 += score;
+                document.getElementById("team1-score").innerText = totalScore1;
+            }
         }
     </script>
 </body>
