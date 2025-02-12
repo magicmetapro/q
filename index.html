@@ -172,7 +172,7 @@
     <div class="overlay">
         <div class="container" id="quiz-container">
             <h1>Family 100 Quiz</h1>
-            <button class="start-btn" onclick="startRound()">Mulai Round</button>
+            <button class="start-btn" id="start-btn" onclick="startRound()">Mulai Round</button>
             <div class="round" id="round1">
                 <div class="question">Round 1: Apa yang sering dilakukan di rumah?</div>
                 <div class="answers">
@@ -283,26 +283,46 @@
 
     <script>
         let currentRound = 1;
+        const totalRounds = 5;
+        const startBtn = document.getElementById("start-btn");
 
         function startRound() {
+            startBtn.style.display = "none"; // Sembunyikan tombol "Mulai Round"
             document.getElementById(`round${currentRound}`).classList.add("active");
-            document.getElementById("answers").style.display = "flex";
         }
 
         function reveal(button, text) {
             if (!button.classList.contains("revealed")) {
                 button.textContent = text;
                 button.classList.add("revealed");
+                checkAllRevealed(currentRound);
+            }
+        }
+
+        function checkAllRevealed(round) {
+            const roundElement = document.getElementById(`round${round}`);
+            const buttons = roundElement.querySelectorAll(".answer-btn");
+            const allRevealed = Array.from(buttons).every(btn => btn.classList.contains("revealed"));
+
+            if (allRevealed) {
+                if (currentRound < totalRounds) {
+                    startBtn.textContent = "Next Round";
+                    startBtn.style.display = "block";
+                    startBtn.onclick = nextRound;
+                } else {
+                    startBtn.textContent = "Permainan Selesai!";
+                    startBtn.style.display = "block";
+                    startBtn.onclick = () => alert("Terima kasih telah bermain!");
+                }
             }
         }
 
         function nextRound() {
             document.getElementById(`round${currentRound}`).classList.remove("active");
             currentRound++;
-            if (currentRound <= 5) {
+            if (currentRound <= totalRounds) {
                 document.getElementById(`round${currentRound}`).classList.add("active");
-            } else {
-                alert("Permainan selesai!");
+                startBtn.style.display = "none"; // Sembunyikan tombol "Next Round"
             }
         }
     </script>
