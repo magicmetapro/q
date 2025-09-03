@@ -1,0 +1,622 @@
+[
+  {
+    "KodeBarang": "4.010402.001",
+    "Scylla": "024001"
+  },
+  {
+    "KodeBarang": "4.010102.048",
+    "Scylla": "024002"
+  },
+  {
+    "KodeBarang": "4.010102.042",
+    "Scylla": "024003"
+  },
+  {
+    "KodeBarang": "4.010102.077",
+    "Scylla": "024004"
+  },
+  {
+    "KodeBarang": "4.010102.034",
+    "Scylla": "024005"
+  },
+  {
+    "KodeBarang": "4.010402.051",
+    "Scylla": "024006"
+  },
+  {
+    "KodeBarang": "4.010102.033",
+    "Scylla": "024007"
+  },
+  {
+    "KodeBarang": "4.010402.014",
+    "Scylla": "024008"
+  },
+  {
+    "KodeBarang": "4.010102.043",
+    "Scylla": "024009"
+  },
+  {
+    "KodeBarang": "4.010102.070",
+    "Scylla": "024010"
+  },
+  {
+    "KodeBarang": "4.010102.049",
+    "Scylla": "024011"
+  },
+  {
+    "KodeBarang": "4.030102.027",
+    "Scylla": "024012"
+  },
+  {
+    "KodeBarang": "4.030402.033",
+    "Scylla": "024013"
+  },
+  {
+    "KodeBarang": "4.030102.030",
+    "Scylla": "024014"
+  },
+  {
+    "KodeBarang": "4.030402.038",
+    "Scylla": "024015"
+  },
+  {
+    "KodeBarang": "4.020102.018",
+    "Scylla": "024016"
+  },
+  {
+    "KodeBarang": "4.020402.017",
+    "Scylla": "024017"
+  },
+  {
+    "KodeBarang": "4.020102.030",
+    "Scylla": "024019"
+  },
+  {
+    "KodeBarang": "4.050302.001",
+    "Scylla": "024020"
+  },
+  {
+    "KodeBarang": "4.050302.009",
+    "Scylla": "024021"
+  },
+  {
+    "KodeBarang": "4.050402.019",
+    "Scylla": "024022"
+  },
+  {
+    "KodeBarang": "4.050102.155",
+    "Scylla": "024023"
+  },
+  {
+    "KodeBarang": "4.050102.156",
+    "Scylla": "024024"
+  },
+  {
+    "KodeBarang": "4.050102.158",
+    "Scylla": "024026"
+  },
+  {
+    "KodeBarang": "4.040302.201",
+    "Scylla": "024027"
+  },
+  {
+    "KodeBarang": "4.040101.162",
+    "Scylla": "024028"
+  },
+  {
+    "KodeBarang": "4.040402.202",
+    "Scylla": "024029"
+  },
+  {
+    "KodeBarang": "4.040301.154",
+    "Scylla": "024031"
+  },
+  {
+    "KodeBarang": "4.040301.155",
+    "Scylla": "024032"
+  },
+  {
+    "KodeBarang": "4.040301.156",
+    "Scylla": "024033"
+  },
+  {
+    "KodeBarang": "4.040301.157",
+    "Scylla": "024034"
+  },
+  {
+    "KodeBarang": "4.050401.077",
+    "Scylla": "024035"
+  },
+  {
+    "KodeBarang": "4.070102.025",
+    "Scylla": "024036"
+  },
+  {
+    "KodeBarang": "4.070102.026",
+    "Scylla": "024037"
+  },
+  {
+    "KodeBarang": "4.070102.023",
+    "Scylla": "024038"
+  },
+  {
+    "KodeBarang": "4.070402.030",
+    "Scylla": "024039"
+  },
+  {
+    "KodeBarang": "4.070402.033",
+    "Scylla": "024040"
+  },
+  {
+    "KodeBarang": "4.080401.001",
+    "Scylla": "024041"
+  },
+  {
+    "KodeBarang": "4.080401.002",
+    "Scylla": "024042"
+  },
+  {
+    "KodeBarang": "4.080401.003",
+    "Scylla": "024043"
+  },
+  {
+    "KodeBarang": "4.080401.010",
+    "Scylla": "024044"
+  },
+  {
+    "KodeBarang": "4.080402.022",
+    "Scylla": "024046"
+  },
+  {
+    "KodeBarang": "4.090602.006",
+    "Scylla": "024048"
+  },
+  {
+    "KodeBarang": "4.130402.010",
+    "Scylla": "024049"
+  },
+  {
+    "KodeBarang": "4.130402.011",
+    "Scylla": "024050"
+  },
+  {
+    "KodeBarang": "4.130402.012",
+    "Scylla": "024051"
+  },
+  {
+    "KodeBarang": "4.140401.021",
+    "Scylla": "024052"
+  },
+  {
+    "KodeBarang": "4.140401.020",
+    "Scylla": "024053"
+  },
+  {
+    "KodeBarang": "4.160402.002",
+    "Scylla": "024059"
+  },
+  {
+    "KodeBarang": "4.160402.001",
+    "Scylla": "024060"
+  },
+  {
+    "KodeBarang": "4.070102.045",
+    "Scylla": "024061"
+  },
+  {
+    "KodeBarang": "4.070102.050",
+    "Scylla": "024062"
+  },
+  {
+    "KodeBarang": "4.090602.020",
+    "Scylla": "024063"
+  },
+  {
+    "KodeBarang": "4.050402.167",
+    "Scylla": "024064"
+  },
+  {
+    "KodeBarang": "4.040301.153",
+    "Scylla": "024065"
+  },
+  {
+    "KodeBarang": "4.140401.012",
+    "Scylla": "024068"
+  },
+  {
+    "KodeBarang": "4.040402.229",
+    "Scylla": "024069"
+  },
+  {
+    "KodeBarang": "4.050402.160",
+    "Scylla": "024070"
+  },
+  {
+    "KodeBarang": "4.140402.017",
+    "Scylla": "024071"
+  },
+  {
+    "KodeBarang": "4.140402.016",
+    "Scylla": "024073"
+  },
+  {
+    "KodeBarang": "4.140401.011",
+    "Scylla": "024074"
+  },
+  {
+    "KodeBarang": "4.090602.023",
+    "Scylla": "024075"
+  },
+  {
+    "KodeBarang": "4.090602.024",
+    "Scylla": "024076"
+  },
+  {
+    "KodeBarang": "4.090602.025",
+    "Scylla": "024077"
+  },
+  {
+    "KodeBarang": "4.160402.003",
+    "Scylla": "024078"
+  },
+  {
+    "KodeBarang": "4.050101.217",
+    "Scylla": "024079"
+  },
+  {
+    "KodeBarang": "4.050402.228",
+    "Scylla": "024080"
+  },
+  {
+    "KodeBarang": "4.070102.062",
+    "Scylla": "024081"
+  },
+  {
+    "KodeBarang": "4.070102.063",
+    "Scylla": "024082"
+  },
+  {
+    "KodeBarang": "4.070102.065",
+    "Scylla": "024083"
+  },
+  {
+    "KodeBarang": "4.050102.231",
+    "Scylla": "024084"
+  },
+  {
+    "KodeBarang": "4.050302.230",
+    "Scylla": "024085"
+  },
+  {
+    "KodeBarang": "4.050101.227",
+    "Scylla": "024086"
+  },
+  {
+    "KodeBarang": "4.050402.229",
+    "Scylla": "024087"
+  },
+  {
+    "KodeBarang": "4.140902.037",
+    "Scylla": "024088"
+  },
+  {
+    "KodeBarang": "4.140902.038",
+    "Scylla": "024089"
+  },
+  {
+    "KodeBarang": "4.140102.045",
+    "Scylla": "024090"
+  },
+  {
+    "KodeBarang": "4.140102.046",
+    "Scylla": "024091"
+  },
+  {
+    "KodeBarang": "4.140401.009",
+    "Scylla": "024092"
+  },
+  {
+    "KodeBarang": "4.140401.012",
+    "Scylla": "024093"
+  },
+  {
+    "KodeBarang": "4.140401.013",
+    "Scylla": "024094"
+  },
+  {
+    "KodeBarang": "4.140402.055",
+    "Scylla": "024095"
+  },
+  {
+    "KodeBarang": "4.140602.052",
+    "Scylla": "024096"
+  },
+  {
+    "KodeBarang": "4.140602.053",
+    "Scylla": "024097"
+  },
+  {
+    "KodeBarang": "4.140602.054",
+    "Scylla": "024098"
+  },
+  {
+    "KodeBarang": "4.140602.047",
+    "Scylla": "024099"
+  },
+  {
+    "KodeBarang": "4.140602.048",
+    "Scylla": "024100"
+  },
+  {
+    "KodeBarang": "4.140602.056",
+    "Scylla": "024101"
+  },
+  {
+    "KodeBarang": "4.140602.058",
+    "Scylla": "024102"
+  },
+  {
+    "KodeBarang": "4.140602.060",
+    "Scylla": "024103"
+  },
+  {
+    "KodeBarang": "4.140202.042",
+    "Scylla": "024104"
+  },
+  {
+    "KodeBarang": "4.140402.049",
+    "Scylla": "024106"
+  },
+  {
+    "KodeBarang": "4.140402.050",
+    "Scylla": "024107"
+  },
+  {
+    "KodeBarang": "4.140102.063",
+    "Scylla": "024108"
+  },
+  {
+    "KodeBarang": "4.140102.064",
+    "Scylla": "024109"
+  },
+  {
+    "KodeBarang": "4.090602.003",
+    "Scylla": "024110"
+  },
+  {
+    "KodeBarang": "4.140402.062",
+    "Scylla": "024111"
+  },
+  {
+    "KodeBarang": "4.140102.066",
+    "Scylla": "024112"
+  },
+  {
+    "KodeBarang": "4.140102.040",
+    "Scylla": "024113"
+  },
+  {
+    "KodeBarang": "4.140102.041",
+    "Scylla": "024114"
+  },
+  {
+    "KodeBarang": "4.140402.072",
+    "Scylla": "024115"
+  },
+  {
+    "KodeBarang": "4.050402.159",
+    "Scylla": "024116"
+  },
+  {
+    "KodeBarang": "4.030102.049",
+    "Scylla": "024117"
+  },
+  {
+    "KodeBarang": "4.140402.073",
+    "Scylla": "024118"
+  },
+  {
+    "KodeBarang": "4.020402.038",
+    "Scylla": "024119"
+  },
+  {
+    "KodeBarang": "4.140102.070",
+    "Scylla": "024120"
+  },
+  {
+    "KodeBarang": "4.140102.065",
+    "Scylla": "024121"
+  },
+  {
+    "KodeBarang": "4.140102.071",
+    "Scylla": "024122"
+  },
+  {
+    "KodeBarang": "4.010402.083",
+    "Scylla": "024123"
+  },
+  {
+    "KodeBarang": "4.140402.051",
+    "Scylla": "024124"
+  },
+  {
+    "KodeBarang": "4.140402.045",
+    "Scylla": "024125"
+  },
+  {
+    "KodeBarang": "4.140401.031",
+    "Scylla": "024126"
+  },
+  {
+    "KodeBarang": "4.030402.051",
+    "Scylla": "024127"
+  },
+  {
+    "KodeBarang": "4.030402.050",
+    "Scylla": "024128"
+  },
+  {
+    "KodeBarang": "4.010402.021",
+    "Scylla": "024129"
+  },
+  {
+    "KodeBarang": "4.140902.075",
+    "Scylla": "024131"
+  },
+  {
+    "KodeBarang": "4.050302.255",
+    "Scylla": "024132"
+  },
+  {
+    "KodeBarang": "4.040402.313",
+    "Scylla": "024133"
+  },
+  {
+    "KodeBarang": "4.040402.314",
+    "Scylla": "024134"
+  },
+  {
+    "KodeBarang": "4.040402.312",
+    "Scylla": "024135"
+  },
+  {
+    "KodeBarang": "4.040402.315",
+    "Scylla": "024136"
+  },
+  {
+    "KodeBarang": "4.040402.316",
+    "Scylla": "024137"
+  },
+  {
+    "KodeBarang": "4.050102.262",
+    "Scylla": "024138"
+  },
+  {
+    "KodeBarang": "4.050102.260",
+    "Scylla": "024139"
+  },
+  {
+    "KodeBarang": "4.050302.254",
+    "Scylla": "024140"
+  },
+  {
+    "KodeBarang": "4.020102.039",
+    "Scylla": "024141"
+  },
+  {
+    "KodeBarang": "4.050402.266",
+    "Scylla": "024142"
+  },
+  {
+    "KodeBarang": "4.040202.275",
+    "Scylla": "024130"
+  },
+  {
+    "KodeBarang": "4.050402.261",
+    "Scylla": "024143"
+  },
+  {
+    "KodeBarang": "4.210302.004",
+    "Scylla": "024144"
+  },
+  {
+    "KodeBarang": "4.210402.003",
+    "Scylla": "024145"
+  },
+  {
+    "KodeBarang": "4.040402.318",
+    "Scylla": "024146"
+  },
+  {
+    "KodeBarang": "4.040102.203",
+    "Scylla": "024147"
+  },
+  {
+    "KodeBarang": "4.220402.001",
+    "Scylla": "024148"
+  },
+  {
+    "KodeBarang": "4.050302.267",
+    "Scylla": "024149"
+  },
+  {
+    "KodeBarang": "4.040302.319",
+    "Scylla": "024150"
+  },
+  {
+    "KodeBarang": "4.140102.085",
+    "Scylla": "024151"
+  },
+  {
+    "KodeBarang": "4.140902.084",
+    "Scylla": "024152"
+  },
+  {
+    "KodeBarang": "4.140102.087",
+    "Scylla": "024153"
+  },
+  {
+    "KodeBarang": "4.140102.086",
+    "Scylla": "024162"
+  },
+  {
+    "KodeBarang": "4.200402.004",
+    "Scylla": "024158"
+  },
+  {
+    "KodeBarang": "4.200402.005",
+    "Scylla": "024160"
+  },
+  {
+    "KodeBarang": "4.030102.057",
+    "Scylla": "024161"
+  },
+  {
+    "KodeBarang": "4.010102.086",
+    "Scylla": "024155"
+  },
+  {
+    "KodeBarang": "4.010102.087",
+    "Scylla": "024156"
+  },
+  {
+    "KodeBarang": "4.010102.080",
+    "Scylla": "024154"
+  },
+  {
+    "KodeBarang": "4.010102.081",
+    "Scylla": "024163"
+  },
+  {
+    "KodeBarang": "4.010102.082",
+    "Scylla": "024157"
+  },
+  {
+    "KodeBarang": "4.050102.279",
+    "Scylla": "024165"
+  },
+  {
+    "KodeBarang": "4.140102.093",
+    "Scylla": "024166"
+  },
+  {
+    "KodeBarang": "4.030402.054",
+    "Scylla": "024159"
+  },
+  {
+    "KodeBarang": "4.080401.004",
+    "Scylla": "024164"
+  },
+  {
+    "KodeBarang": "4.160402.043",
+    "Scylla": "024167"
+  },
+  {
+    "KodeBarang": "4.210302.002",
+    "Scylla": "024168"
+  },
+  {
+    "KodeBarang": "4.050402.265",
+    "Scylla": "024169"
+  }
+]
