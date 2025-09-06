@@ -1,14 +1,442 @@
 [
   {
-    "ItemDescription": "Vivelle Body Mist 100 ml Splendide (Blue) R New",
-    "Scylla": "030014"
+    "ItemDescription": "VIVELLE BODY MIST PINK 75ML X 48",
+    "Scylla": "030001"
   },
   {
-    "ItemDescription": "Vivelle Body Mist 100 ml Mignon (Orange) R New",
+    "ItemDescription": "VIVELLE BODY MIST VIOLET 75ML X 48",
+    "Scylla": "030002"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST GREEN 75ML X 48",
+    "Scylla": "030003"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST ORANGE 75ML X 48",
+    "Scylla": "030004"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST YELLOW 75ML X 48",
+    "Scylla": "030005"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST BLUE 75ML X 48",
+    "Scylla": "030006"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST TOSCA 75ML X 48",
+    "Scylla": "030007"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST RED 75ML X 48",
+    "Scylla": "030008"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST PINK 100ML X 24",
+    "Scylla": "030009"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST VIOLET 100ML X 24",
+    "Scylla": "030010"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST GREEN 100ML X 24",
+    "Scylla": "030011"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST ORANGE 100ML X 24",
     "Scylla": "030012"
   },
   {
-    "ItemDescription": "Vivelle Body Mist 180 ml Mignon (Orange) R New",
+    "ItemDescription": "VIVELLE BODY MIST YELLOW 100ML X 24",
+    "Scylla": "030013"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST BLUE 100ML X 24",
+    "Scylla": "030014"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST TOSCA 100ML X 24",
+    "Scylla": "030015"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST RED 100ML X 24",
+    "Scylla": "030016"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST PINK 180ML X 12",
+    "Scylla": "030017"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST VIOLET 180ML X 12",
+    "Scylla": "030018"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST GREEN 180ML X 12",
+    "Scylla": "030019"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST ORANGE 180ML X 12",
     "Scylla": "030020"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST YELLOW 180ML X 12",
+    "Scylla": "030021"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST BLUE 180ML X 12",
+    "Scylla": "030022"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST TOSCA 180ML X 12",
+    "Scylla": "030023"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY MIST RED 180ML X 12",
+    "Scylla": "030024"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT PLASTIK FELICITA BLUE 100ML",
+    "Scylla": "030025"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT PLASTIK BELLA PINK 100ML",
+    "Scylla": "030026"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT PLASTIK CARINA VIOLET 100ML",
+    "Scylla": "030027"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT PLASTIK BELISSIMA GREEN100ML",
+    "Scylla": "030028"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT PLASTIK ROSA GOLD 100ML",
+    "Scylla": "030029"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY SPRAY PINK 150ML X 24",
+    "Scylla": "030030"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY SPRAY VIOLET 150ML X 24",
+    "Scylla": "030031"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY SPRAY GREEN 150ML X 24",
+    "Scylla": "030032"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY SPRAY BLUE 150ML X 24",
+    "Scylla": "030033"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY SPRAY YELLOW 150ML X 24",
+    "Scylla": "030034"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON PINK 50ML X 36",
+    "Scylla": "030035"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON BLUE 50ML X 36",
+    "Scylla": "030036"
+  },
+  {
+    "ItemDescription": "VIVELLE FACE MASK BENGKOANG 25GR",
+    "Scylla": "030037"
+  },
+  {
+    "ItemDescription": "VIVELLE FACE MASK VITAMIN C 25GR",
+    "Scylla": "030038"
+  },
+  {
+    "ItemDescription": "VIVELLE FACE MASK ANTI ACNE 25GR",
+    "Scylla": "030039"
+  },
+  {
+    "ItemDescription": "VIVELLE FACE MASK POMEGRANATE 25GR",
+    "Scylla": "030040"
+  },
+  {
+    "ItemDescription": "VIVELLE FACE MASK BLACK CHARCOAL 25GR",
+    "Scylla": "030041"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT GLASS VIOLET 100ML X 12",
+    "Scylla": "030042"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT GLASS GOLD 100ML X 12",
+    "Scylla": "030043"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT GLASS BLUE 100ML X 12",
+    "Scylla": "030044"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT GLASS PINK 100ML X 12",
+    "Scylla": "030045"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT GLASS ADORE 100ML X 12",
+    "Scylla": "030046"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT GLASS LOVELY 100ML X 12",
+    "Scylla": "030047"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT GLASS PARIS 100ML X 12",
+    "Scylla": "030048"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT GLASS MON AMOUR 100ML X 12",
+    "Scylla": "030049"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT CITY PINK 100ML X 12",
+    "Scylla": "030050"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT CITY BLUE 100ML X 12",
+    "Scylla": "030051"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT CITY PEACH 100ML X 12",
+    "Scylla": "030052"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT CITY VIOLET 100ML X 12",
+    "Scylla": "030053"
+  },
+  {
+    "ItemDescription": "VIVELLE HAND SANITIZER BLUE 105ML X 24",
+    "Scylla": "030054"
+  },
+  {
+    "ItemDescription": "VIVELLE HAND SANITIZER GREEN 105ML X 24",
+    "Scylla": "030055"
+  },
+  {
+    "ItemDescription": "VIVELLE HAND SOAP ANTIBACTERIAL BLUE 200",
+    "Scylla": "030056"
+  },
+  {
+    "ItemDescription": "VIVELLE HAND SOAP ANTIBACTERIAL GREEN200",
+    "Scylla": "030057"
+  },
+  {
+    "ItemDescription": "WESLEY EDT MILAN BLACK 100ML X 12",
+    "Scylla": "030058"
+  },
+  {
+    "ItemDescription": "WESLEY EDT MANCHESTER RED 100ML X 12",
+    "Scylla": "030059"
+  },
+  {
+    "ItemDescription": "WESLEY EDT MADRID GOLD 100ML X 12",
+    "Scylla": "030060"
+  },
+  {
+    "ItemDescription": "WESLEY EDT MUNICH BLUE 100ML X 12",
+    "Scylla": "030061"
+  },
+  {
+    "ItemDescription": "SEOJIN HBL MOISTURIZING BLUE 250ML X 12",
+    "Scylla": "030062"
+  },
+  {
+    "ItemDescription": "SEOJIN HBL BRIGHTENING PINK 250ML X 12",
+    "Scylla": "030063"
+  },
+  {
+    "ItemDescription": "JOY COCO HAND SOAP LEMONADE BLUE 250ML",
+    "Scylla": "030064"
+  },
+  {
+    "ItemDescription": "JOY COCO HAND SOAP POWDERY ROSE 250ML",
+    "Scylla": "030065"
+  },
+  {
+    "ItemDescription": "VIVELLE BM VIOLET 75ML BANDED HZGEL 60ML",
+    "Scylla": "030066"
+  },
+  {
+    "ItemDescription": "VIVELLE BM PINK 75ML BANDED HZ GEL 60ML",
+    "Scylla": "030067"
+  },
+  {
+    "ItemDescription": "VIVELLE BM BLUE 75ML BANDED HZ GEL 60ML",
+    "Scylla": "030068"
+  },
+  {
+    "ItemDescription": "VIVELLE BM GREEN 75ML BANDED HZ GEL 60ML",
+    "Scylla": "030069"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT 100ML SPECIAL EDITION XOXO",
+    "Scylla": "030070"
+  },
+  {
+    "ItemDescription": "VIVELLE EDT 100ML SPECIAL EDITION MOOI",
+    "Scylla": "030071"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON DEODORANT GREEN 50ML",
+    "Scylla": "030072"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON DEODORANT YELLOW 50ML",
+    "Scylla": "030073"
+  },
+  {
+    "ItemDescription": "ARIELA EDT ALEGRIA (YELLOW) 100ML X 12",
+    "Scylla": "030074"
+  },
+  {
+    "ItemDescription": "ARIELA EDT BONITA (GREEN) 100ML X 12",
+    "Scylla": "030075"
+  },
+  {
+    "ItemDescription": "ARIELA EDT MI AMOR (BLUE) 100ML X 12",
+    "Scylla": "030076"
+  },
+  {
+    "ItemDescription": "ARIELA EDT PRINCESA (PINK) 100ML X 12",
+    "Scylla": "030077"
+  },
+  {
+    "ItemDescription": "BLACKROCK EDT ABSOLUTE 60ML (TOSCA)",
+    "Scylla": "030078"
+  },
+  {
+    "ItemDescription": "BLACKROCK EDT INDIVIDUAL 60ML (ORANGE)",
+    "Scylla": "030079"
+  },
+  {
+    "ItemDescription": "BLACKROCK EDT PHANTOM 60ML (BLACK)",
+    "Scylla": "030080"
+  },
+  {
+    "ItemDescription": "BLACKROCK EDT POWER 60ML (BLUE)",
+    "Scylla": "030081"
+  },
+  {
+    "ItemDescription": "VIVELLE PERFUMED BL ADORE 250ML",
+    "Scylla": "030082"
+  },
+  {
+    "ItemDescription": "VIVELLE PERFUMED BL BEAUTIFUL LIFE 250ML",
+    "Scylla": "030083"
+  },
+  {
+    "ItemDescription": "VIVELLE PERFUMED BL LOVELY 250ML",
+    "Scylla": "030084"
+  },
+  {
+    "ItemDescription": "VIVELLE PERFUMED BL MON AMOUR 250ML",
+    "Scylla": "030085"
+  },
+  {
+    "ItemDescription": "VIVELLE PERFUMED BL PRECIOUS LOVE 250ML",
+    "Scylla": "030086"
+  },
+  {
+    "ItemDescription": "VIVELLE PERFUMED BL SHIMMERING JOY 250ML",
+    "Scylla": "030087"
+  },
+  {
+    "ItemDescription": "BLACKROCK ROLL ON ABSOLUTE (TOSCA) 50ML",
+    "Scylla": "030088"
+  },
+  {
+    "ItemDescription": "BLACKROCK ROLL ON INDIVIDUAL (ORANGE)",
+    "Scylla": "030089"
+  },
+  {
+    "ItemDescription": "BLACKROCK ROLL ON PHANTOM (BLACK) 50ML",
+    "Scylla": "030090"
+  },
+  {
+    "ItemDescription": "BLACKROCK ROLL ON POWER (BLUE) 50ML",
+    "Scylla": "030091"
+  },
+  {
+    "ItemDescription": "BUNDLING VIVELLE HBL + EDT MON AMOUR",
+    "Scylla": "030092"
+  },
+  {
+    "ItemDescription": "VIVELLE SPA SYSTEME VEOCEL BENGKUANG",
+    "Scylla": "030093"
+  },
+  {
+    "ItemDescription": "VIVELLE SPA SYSTEME VEOCEL ANTI ACNE",
+    "Scylla": "030094"
+  },
+  {
+    "ItemDescription": "FACE MASK TISSUE VIT C COLLAGEN R ISI 5",
+    "Scylla": "030095"
+  },
+  {
+    "ItemDescription": "VIVELLE SPA SYSTEME VEOCEL POMEGRANATE",
+    "Scylla": "030096"
+  },
+  {
+    "ItemDescription": "ARIELA EDP 50ML AMBER MUSK (PEACH)",
+    "Scylla": "030097"
+  },
+  {
+    "ItemDescription": "ARIELA EDP 50ML GOURMAND (YELLOW)",
+    "Scylla": "030098"
+  },
+  {
+    "ItemDescription": "ARIELA EDP 50ML PEONY CASHMERE (BLUE)",
+    "Scylla": "030099"
+  },
+  {
+    "ItemDescription": "ARIELA EDP 50ML ROSE YLANG YLANG (PINK)",
+    "Scylla": "030100"
+  },
+  {
+    "ItemDescription": "SEOJIN FACIAL MIST 75ML HYDRATING",
+    "Scylla": "030101"
+  },
+  {
+    "ItemDescription": "SEOJIN FACIAL MIST 75ML BRIGHTENING",
+    "Scylla": "030102"
+  },
+  {
+    "ItemDescription": "VIVELLE SPA SYSTEME VEOCEL VIT C",
+    "Scylla": "030103"
+  },
+  {
+    "ItemDescription": "VIVELLE BODY SPRAY PEACH 150ML X 24",
+    "Scylla": "030104"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON DEODORANT PEACH 50ML",
+    "Scylla": "030105"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON BLUE BUNDDLING YELLOW",
+    "Scylla": "030106"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON GREEN BUNDDLING YELLOW",
+    "Scylla": "030107"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON PEACH BUNDDLING YELLOW",
+    "Scylla": "030108"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON PINK BUNDDLING YELLOW",
+    "Scylla": "030109"
+  },
+  {
+    "ItemDescription": "VIVELLE ROLL ON YELLOW BUNDDLING PEACH",
+    "Scylla": "030110"
   }
 ]
